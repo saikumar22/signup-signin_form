@@ -1,0 +1,36 @@
+
+.topnav {
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    margin: 0px 20px 30px 0px;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+    border-bottom: 3px solid red;
+}
+.topnav a.active {
+    border-bottom: 3px solid red;
+}
+.container .login{
+    margin: 50px 0px 0px 400px;
+    width: 25%;
+    height: 50px;
+}
+.form-check{
+    margin: 20px 0px;
+}
+.container h3{
+    text-align: center;
+}
+.btn{
+    margin-left: 120px;
+    margin-top: 30px;
+}
